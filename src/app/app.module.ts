@@ -15,6 +15,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsComponent } from './terms/terms.component';
 import { FaqsComponent } from './faqs/faqs.component';
+import { CollectionComponent } from './collection/collection.component';
 import { ProductsComponent } from './products/products.component';
 
 
@@ -32,7 +33,8 @@ import { ProductsComponent } from './products/products.component';
     PrivacyComponent,
     TermsComponent,
     FaqsComponent,
-    ProductsComponent,
+    CollectionComponent,
+    ProductsComponent
     
     
   ],

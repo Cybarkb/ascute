@@ -10,6 +10,15 @@
 
 *
 */
+:root{
+	--maincolor:    #000000;
+	--seconcolor:   #2DC6CC;
+	--normalcolor:  #ffffff;
+	--defaultcolor: #5b5b5b;
+	--footercolor:  #EC6FBD;
+	--mainfont:     'Lato', sans-serif;
+	--titlefont:    'Life Savers';
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400&family=Lato:wght@300;400;700&display=swap');
 
@@ -47,8 +56,6 @@
     font-style: normal;
     font-display: swap;
 }
-
-
 
 a, a:hover {
 	text-decoration: none !important;

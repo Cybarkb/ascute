@@ -9,6 +9,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsComponent } from './terms/terms.component';
 import { FaqsComponent } from './faqs/faqs.component';
+import { CollectionComponent } from './collection/collection.component';
 import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
@@ -21,7 +22,11 @@ const routes: Routes = [
   {path : 'privacy', component : PrivacyComponent},
   {path : 'terms', component : TermsComponent},
   {path : 'faqs', component : FaqsComponent},
-  {path : 'products', component : ProductsComponent},
+  {path : 'collection', component : CollectionComponent},
+  {
+    path : 'products', 
+    component : ProductsComponent
+  },
   {path : '**', redirectTo : 'home'},
 ];
 
