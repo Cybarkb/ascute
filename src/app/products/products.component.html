@@ -1,1 +1,123 @@
-<p>products works!</p>
+<app-header></app-header>
+
+<app-breadcrumb></app-breadcrumb>
+
+
+<section class="proList_sec">
+    <div class="container">
+        <div class="product_header">
+            <p>Showing 1–16 of 30 results</p>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4">
+                <aside class="sidebar_left">
+                    <app-sidebar></app-sidebar>
+                </aside>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-8">
+                <div class="proList_cont">
+                    <div class="pro_list">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-img text-center"><img class="img-fluid" src="./assets/images/latest1.jpg" alt=""></div>
+                                    <div class="card-body">
+                                        <h5>A selection of Engagement Frames</h5>
+                                        <div class="price">
+                                            <span class="price_org">€39.99</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Select option</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-img text-center"><img class="img-fluid" src="./assets/images/latest2.jpg" alt=""></div>
+                                    <div class="card-body">
+                                        <h5>A selection of Engagement Frames</h5>
+                                        <div class="price">
+                                            <span class="price_org">€39.99</span>
+                                            <span class="price_old">€ 40</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Select option</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-img text-center"><img class="img-fluid" src="./assets/images/latest3.jpg" alt=""></div>
+                                    <div class="card-body">
+                                        <h5>A selection of Engagement Frames</h5>
+                                        <div class="price">
+                                            <span class="price_org">€39.99</span>
+                                            <!-- <span class="price_old">€ 40</span> -->
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Select option</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-img text-center"><img class="img-fluid" src="./assets/images/latest4.jpg" alt=""></div>
+                                    <div class="card-body">
+                                        <h5>A selection of Engagement Frames</h5>
+                                        <div class="price">
+                                            <span class="price_org">€39.99</span>
+                                            <span class="price_old">€ 40</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Select option</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-img text-center"><img class="img-fluid" src="./assets/images/latest1.jpg" alt=""></div>
+                                    <div class="card-body">
+                                        <h5>A selection of Engagement Frames</h5>
+                                        <div class="price">
+                                            <span class="price_org">€39.99</span>
+                                            <span class="price_old">€ 40</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Select option</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-img text-center"><img class="img-fluid" src="./assets/images/latest3.jpg" alt=""></div>
+                                    <div class="card-body">
+                                        <h5>A selection of Engagement Frames</h5>
+                                        <div class="price">
+                                            <span class="price_org">€39.99</span>
+                                            <span class="price_old">€ 40</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Select option</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_foot">
+                        <!-- <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-left"></i></a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </nav> -->
+                        <mat-paginator [length]="100"
+                            [pageSize]="10"
+                            [pageSizeOptions]="[5, 10, 25, 100]">
+                        </mat-paginator>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<app-footer></app-footer>

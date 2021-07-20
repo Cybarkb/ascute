@@ -17,6 +17,11 @@ import { TermsComponent } from './terms/terms.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { CollectionComponent } from './collection/collection.component';
 import { ProductsComponent } from './products/products.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+
+// Material Module
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';  //Page Loader
+import {MatPaginatorModule} from '@angular/material/paginator'; //paginator
 
 
 @NgModule({
@@ -34,14 +39,17 @@ import { ProductsComponent } from './products/products.component';
     TermsComponent,
     FaqsComponent,
     CollectionComponent,
-    ProductsComponent
+    ProductsComponent,
+    SidebarComponent
     
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatPaginatorModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
