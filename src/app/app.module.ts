@@ -21,6 +21,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 
 // Material Module
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';  //Page Loader
+import {MatMenuModule} from '@angular/material/menu'; //Menu
 import {MatPaginatorModule} from '@angular/material/paginator'; //paginator
 
 
@@ -49,6 +50,7 @@ import {MatPaginatorModule} from '@angular/material/paginator'; //paginator
     AppRoutingModule,
     BrowserAnimationsModule,
     MatPaginatorModule,
+    MatMenuModule,
     MatProgressSpinnerModule
   ],
   providers: [],
